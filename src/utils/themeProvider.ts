@@ -6,5 +6,8 @@ export const lightTheme = createTheme({
       primary: {
         main: '#ffff',
       },
+      info: {
+        main: '#0D5B8C',
+      }
     },
   });

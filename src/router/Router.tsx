@@ -15,6 +15,16 @@ const Router = () => (
                     }
                 />
             </Route> 
+            <Route element = {<Layout/>} path={"/form"}>
+                <Route
+                    index
+                    element={
+                    <BodyWrapper>
+                        
+                    </BodyWrapper>
+                    }
+                />
+            </Route> 
         </Routes>
     </BrowserRouter>
 )
