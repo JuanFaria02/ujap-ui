@@ -1,14 +1,17 @@
+import { CssBaseline, ThemeProvider } from '@mui/material'
 import './App.css'
+import { Router } from './router'
+import { lightTheme } from './utils/themeProvider'
+
 
 function App() {
   return (
     <>
-      <nav className='p-5'>
-          <p className=''>
-              Home
-          </p>
-          Forms
-      </nav>
+      <CssBaseline>
+        <ThemeProvider theme={lightTheme}>
+            <Router/>
+        </ThemeProvider>
+      </CssBaseline>
     </>
   )
 }
