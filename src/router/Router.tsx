@@ -20,7 +20,6 @@ const Router = () => (
                     index
                     element={
                     <BodyWrapper>
-                        
                     </BodyWrapper>
                     }
                 />

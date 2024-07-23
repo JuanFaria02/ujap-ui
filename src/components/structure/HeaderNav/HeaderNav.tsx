@@ -2,6 +2,7 @@ import { AppBar, Container, Toolbar } from "@mui/material"
 import React from "react"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
+import Icon from "../../icons/test"
 
 
 
@@ -17,6 +18,7 @@ const HeaderNav = () => {
         <>
         <AppBar color='info'  position='static' className='h-28'>
           <Container className='pt-6 absolute min-w-full'>
+            <Icon styles='absolute'/>
               <Toolbar className='justify-end'>
                 <a className='font-bold relative right-36 text-white no-underline cursor-pointer hover:text-black'>
                   {t('about.event')}
