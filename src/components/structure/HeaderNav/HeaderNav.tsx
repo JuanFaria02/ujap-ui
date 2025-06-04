@@ -4,8 +4,6 @@ import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 import Icon from "../../icons/test"
 
-
-
 const HeaderNav = () => {
   const {t} = useTranslation()
   const navigate = useNavigate()
